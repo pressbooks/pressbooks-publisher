@@ -8,7 +8,7 @@ The default theme for the root site on Pressbooks installations.
 
 * PHP >= 5.6
 * WordPress >= 4.8.0
-* Pressbooks >= 4.0.
+* Pressbooks >= 4.0.0
 
 ## Installation
 
