@@ -1,6 +1,5 @@
 {
   "name": "pressbooks-publisher",
-  "version": "3.0.1",
   "author": "Pressbooks (Book Oven Inc.) <code@pressbooks.com>",
   "homepage": "https://pressbooks.org/",
   "private": true,
@@ -24,7 +23,7 @@
   },
   "engines": {
     "node": ">= 0.12.0",
-    "npm": ">=2.1.5"
+    "npm": ">= 2.1.5"
   },
   "devDependencies": {
     "asset-builder": "^1.1.0",
