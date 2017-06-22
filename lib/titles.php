@@ -10,14 +10,14 @@ function title() {
 		if ( get_option( 'page_for_posts', true ) ) {
 			return get_the_title( get_option( 'page_for_posts', true ) );
 		} else {
-			return __( 'Latest Posts', 'pressbooks' );
+			return __( 'Latest Posts', 'pressbooks-publisher' );
 		}
 	} elseif ( is_archive() ) {
 		return get_the_archive_title();
 	} elseif ( is_search() ) {
-		return sprintf( __( 'Search Results for %s', 'pressbooks' ), get_search_query() );
+		return sprintf( __( 'Search Results for %s', 'pressbooks-publisher' ), get_search_query() );
 	} elseif ( is_404() ) {
-		return __( 'Not Found', 'pressbooks' );
+		return __( 'Not Found', 'pressbooks-publisher' );
 	} else {
 		return get_the_title();
 	}
