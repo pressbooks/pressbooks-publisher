@@ -35,7 +35,7 @@
 			<footer class="footer">
 
 				<div class="button-wrap">
-					<a href="//<?php echo $book->domain . $book->path; ?>" class="btn btn-primary"><?php _e( 'Read More', 'pressbooks' ); ?></a>
+					<a href="//<?php echo $book->domain . $book->path; ?>" class="btn btn-primary"><?php _e( 'Read More', 'pressbooks-publisher' ); ?></a>
 				</div>
 
 				<?php if ( isset( $metadata['pb_keywords_tags'] ) ) { ?>

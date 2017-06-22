@@ -13,8 +13,8 @@ function customize_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'pressbooks_publisher_intro_box',
 		array(
-			'title' => __( 'About Us', 'pressbooks' ),
-			'description' => __( 'Add a description of your collection or institution below.', 'pressbooks' ),
+			'title' => __( 'About Us', 'pressbooks-publisher' ),
+			'description' => __( 'Add a description of your collection or institution below.', 'pressbooks-publisher' ),
 			'priority' => 35,
 		)
 	);
@@ -30,7 +30,7 @@ function customize_register( $wp_customize ) {
 	$wp_customize->add_control(
 		'pressbooks_publisher_intro_textbox',
 		array(
-			'label' => __( 'About Us', 'pressbooks' ),
+			'label' => __( 'About Us', 'pressbooks-publisher' ),
 			'section' => 'pressbooks_publisher_intro_box',
 			'type' => 'textarea',
 		)
@@ -46,13 +46,13 @@ function customize_register( $wp_customize ) {
 	$wp_customize->add_control(
 		'pressbooks_publisher_intro_text_col',
 		array(
-			'label' => __( 'Columns', 'pressbooks' ),
-			'description' => __( 'Display your intro text in one or two columns.', 'pressbooks' ),
+			'label' => __( 'Columns', 'pressbooks-publisher' ),
+			'description' => __( 'Display your intro text in one or two columns.', 'pressbooks-publisher' ),
 			'section' => 'pressbooks_publisher_intro_box',
 			'type' => 'radio',
 			'choices' => array(
-				'one-column' => __( 'One column', 'pressbooks' ),
-				'two-column' => __( 'Two columns', 'pressbooks' ),
+				'one-column' => __( 'One column', 'pressbooks-publisher' ),
+				'two-column' => __( 'Two columns', 'pressbooks-publisher' ),
 			),
 		)
 	);

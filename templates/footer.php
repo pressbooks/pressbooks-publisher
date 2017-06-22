@@ -13,7 +13,7 @@
 	<footer class="content-info">
 		<?php $contentinfo = sprintf(
 			'%s <a href="%s">%s</a>',
-			__( 'Powered by', 'pressbooks' ),
+			__( 'Powered by', 'pressbooks-publisher' ),
 			esc_url( 'https://pressbooks.com' ),
 			'Pressbooks'
 		);
