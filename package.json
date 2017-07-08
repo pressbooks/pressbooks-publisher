@@ -1,5 +1,5 @@
 {
-  "name": "pressbooks-publisher",
+  "name": "@pressbooks/pressbooks-publisher",
   "author": "Pressbooks (Book Oven Inc.) <code@pressbooks.com>",
   "homepage": "https://pressbooks.org/",
   "private": true,
