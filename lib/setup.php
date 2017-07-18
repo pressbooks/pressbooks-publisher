@@ -9,7 +9,7 @@ use Roots\Sage\Assets;
  */
 function setup() {
 	// Make theme available for translation
-	load_theme_textdomain( 'pressbooks', PB_PLUGIN_DIR . 'languages' );
+	load_theme_textdomain( 'pressbooks-publisher', get_template_directory() . '/languages' );
 
 	// Enable plugins to manage the document title
 	// http://codex.wordpress.org/Function_Reference/add_theme_support#Title_Tag
