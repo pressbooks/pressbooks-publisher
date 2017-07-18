@@ -9,7 +9,7 @@
         "humanmade/coding-standards": "^0.2.1"
     },
     "archive": {
-      "exclude": [".github", ".tx"]
+      "exclude": [".github", ".tx", "bin"]
     },
     "scripts": {
       "localize": "wp-pot -o=languages/pressbooks-publisher.pot -d=pressbooks-publisher -t 'Pressbooks (Book Oven Inc.) <code@pressbooks.com>' -s 'templates/*.php'"
