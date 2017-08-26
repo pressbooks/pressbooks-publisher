@@ -3,8 +3,10 @@
 use Roots\Sage\Setup;
 use Roots\Sage\Wrapper;
 
-?>
-
+// Bypass wrapper for templates within Pressbooks core.
+if ( strpos( Wrapper\template_path(), 'plugins/pressbooks/templates' ) ) {
+	include Wrapper\template_path();
+} else { ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
   <?php get_template_part('templates/head'); ?>
@@ -32,3 +34,4 @@ use Roots\Sage\Wrapper;
     ?>
   </body>
 </html>
+<?php }
