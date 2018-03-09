@@ -1,4 +1,4 @@
-# Copyright (C) 2017 pressbooks-publisher
+# Copyright (C) 2018 pressbooks-publisher
 # This file is distributed under the same license as the pressbooks-publisher package.
 # Translators:
 # Antonio Devís <colomet@hotmail.com>, 2017
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr_TR\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -41,3 +41,7 @@ msgstr "Oturumu Kapat"
 #: ../templates/header.php:32
 msgid "Sign In"
 msgstr "Oturum aç"
+
+#: ../templates/header.php34, ../templates/header.php:40
+msgid "Register"
+msgstr ""

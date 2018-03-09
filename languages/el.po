@@ -1,4 +1,4 @@
-# Copyright (C) 2017 pressbooks-publisher
+# Copyright (C) 2018 pressbooks-publisher
 # This file is distributed under the same license as the pressbooks-publisher package.
 # Translators:
 # Antonio Devís <colomet@hotmail.com>, 2017
@@ -41,3 +41,7 @@ msgstr "Αποσύνδεθείτε"
 #: ../templates/header.php:32
 msgid "Sign In"
 msgstr "Συνδεθείτε"
+
+#: ../templates/header.php34, ../templates/header.php:40
+msgid "Register"
+msgstr ""

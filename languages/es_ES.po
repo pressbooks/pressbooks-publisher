@@ -1,8 +1,11 @@
-# Copyright (C) 2017 pressbooks-publisher
+# Copyright (C) 2018 pressbooks-publisher
 # This file is distributed under the same license as the pressbooks-publisher package.
+# Translators:
+# jorge santibañez <info@letrapixel.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: pressbooks-publisher\n"
+"Last-Translator: jorge santibañez <info@letrapixel.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/pressbooks/teams/9194/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +20,7 @@ msgstr ""
 
 #: ../templates/content.php:38
 msgid "Read More"
-msgstr ""
+msgstr "Leer Más"
 
 #: ../templates/footer.php:16
 msgid "Powered by"
@@ -25,16 +28,20 @@ msgstr ""
 
 #: ../templates/header.php:6
 msgid "Admin"
-msgstr ""
+msgstr "Administrador"
 
 #: ../templates/header.php:10
 msgid "My Books"
-msgstr ""
+msgstr "Mis Libros"
 
 #: ../templates/header.php:12
 msgid "Sign Out"
-msgstr ""
+msgstr "Cerrar sesión"
 
 #: ../templates/header.php:32
 msgid "Sign In"
+msgstr "Iniciar sesión"
+
+#: ../templates/header.php34, ../templates/header.php:40
+msgid "Register"
 msgstr ""

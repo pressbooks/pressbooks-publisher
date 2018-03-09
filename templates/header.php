@@ -28,13 +28,17 @@
 			<div class="login-block">
 			<?php if ( class_exists( '\PressbooksOAuth\OAuth' ) ) {
 				do_action( 'pressbooks_oauth_connect' );
-				}	else { ?>
+				} else { ?>
 				<a href="<?php echo wp_login_url( get_option( 'home' ) ); ?>" class="button"><?php _e( 'Sign In', 'pressbooks-publisher' ); ?></a>
 				<?php if ( get_option( 'users_can_register' ) ) { ?>
-					<a class="button" href="<?php echo esc_url( wp_registration_url() ); ?>"><?php _e( 'Register' ); ?></a>
+					<a class="button" href="<?php echo esc_url( wp_registration_url() ); ?>"><?php _e( 'Register', 'pressbooks-publisher' ); ?></a>
 				<?php }
 			} ?>
 			</div>
-		<?php } ?>
+		<?php } else {
+			if ( empty( get_blogs_of_user( get_current_user_id() ) ) && in_array( get_site_option( 'registration' ), [ 'all', 'blog' ], true ) ) { ?>
+				<a class="button" href="<?php echo esc_url( wp_registration_url() ); ?>"><?php _e( 'Register', 'pressbooks-publisher' ); ?></a>
+			<?php }
+		} ?>
 	</div>
 </header>

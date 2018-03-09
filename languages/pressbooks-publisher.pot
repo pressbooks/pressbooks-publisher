@@ -1,4 +1,4 @@
-# Copyright (C) 2017 pressbooks-publisher
+# Copyright (C) 2018 pressbooks-publisher
 # This file is distributed under the same license as the pressbooks-publisher package.
 msgid ""
 msgstr ""
@@ -36,4 +36,8 @@ msgstr ""
 
 #: ../templates/header.php:32
 msgid "Sign In"
+msgstr ""
+
+#: ../templates/header.php:34, ../templates/header.php:40
+msgid "Register"
 msgstr ""

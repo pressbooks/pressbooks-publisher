@@ -1,9 +1,9 @@
-# Copyright (C) 2017 pressbooks-publisher
+# Copyright (C) 2018 pressbooks-publisher
 # This file is distributed under the same license as the pressbooks-publisher package.
 msgid ""
 msgstr ""
 "Project-Id-Version: pressbooks-publisher\n"
-"Language-Team: Kazakh (Cyrillic) (https://www.transifex.com/pressbooks/teams/9194/kk@Cyrl/)\n"
+"Language-Team: Kazakh (Cyrillic) (https://www.transifex.com/pressbooks/teams/9194/kk%40Cyrl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,4 +37,8 @@ msgstr ""
 
 #: ../templates/header.php:32
 msgid "Sign In"
+msgstr ""
+
+#: ../templates/header.php34, ../templates/header.php:40
+msgid "Register"
 msgstr ""
