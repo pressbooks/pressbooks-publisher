@@ -20,7 +20,7 @@
 
 			<header class="header">
 				<h2 class="title"><a href="//<?php echo $book->domain . $book->path; ?>" title="<?php echo $metadata['pb_title']; ?>"><?php echo $metadata['pb_title']; ?></a></h2>
-				<p class="author"><?php echo $metadata['pb_author']; ?></p>
+				<p class="author"><?php echo $metadata['pb_authors']; ?></p>
 			</header><!-- .header -->
 
 			<div class="excerpt">
