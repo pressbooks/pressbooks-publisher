@@ -6,9 +6,9 @@ The default theme for the root site on Pressbooks installations.
 
 ## Requirements
 
-* PHP >= 5.6
-* WordPress >= 4.8.0
-* Pressbooks >= 4.0.0
+* PHP >= 7.4
+* WordPress >= 5.9.3
+* Pressbooks >= 5.34.1
 
 ## Installation
 
